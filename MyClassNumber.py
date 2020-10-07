@@ -8,3 +8,8 @@ class MyClassNumber:
 
 complx1 = MyClassNumber(10,220)
 complx1.displayComplex()
+
+comlex2 = MyClassNumber(20,10)
+comlex2.new_attribute=12
+comlex2.displayComplex()
+print((comlex2.real_part, comlex2.imag_part, comlex2.new_attribute))
